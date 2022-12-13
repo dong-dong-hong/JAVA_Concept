@@ -6,19 +6,16 @@ public class DogMountain {
 		// TODO Auto-generated method stub
 
 		Duchi duchi = new Duchi();
-		duchi.setSomeInfo("두치");
+		duchi.setName("두치");
 		
-		DogArmor<Duchi> armor = new DogArmor<> ();
-		System.out.print(duchi.getSomeInfo() + ": "  );	
-				armor.setArmor(duchi);
+		DogArmor<Duchi> armorDuchi = new DogArmor<>();
+		armorDuchi.setArmor(duchi.getName());
 		
-				
 		Bbuggu bbuggu = new Bbuggu();
-		bbuggu.setSomeInfo("뿌꾸");
+		bbuggu.setName("뿌꾸");
 		
-		DogArmor<Bbuggu> armor2 = new DogArmor<>();
-		System.out.print(bbuggu.getSomeInfo() + ": ");
-		armor2.setArmor(bbuggu);
+		DogArmor<Bbuggu> armorBbuggu = new DogArmor<>();
+		armorBbuggu.setArmor(bbuggu.getName());
 	}
 
 }
