@@ -43,16 +43,16 @@ public class CustomStack {
 		// TODO Auto-generated method stub
 
 		ArrayList<Integer> testDataList = new ArrayList<Integer>();
-        pushData(testDataList, 1);
-        pushData(testDataList, 3);
-        pushData(testDataList, 4);
-        pushData(testDataList, 10);
+        	pushData(testDataList, 1);
+        	pushData(testDataList, 3);
+        	pushData(testDataList, 4);
+        	pushData(testDataList, 10);
 
-        printAllData(testDataList);
+       	        printAllData(testDataList);
 
-        popData(testDataList);
+        	popData(testDataList);
 
-        printAllData(testDataList);
+       		printAllData(testDataList);
 	}
 
 }
