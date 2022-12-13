@@ -1,8 +1,9 @@
 package genericsQuiz2;
 
 public class Dog<T> {
-
-	T someInfo;
+	private T someInfo;
+	
+	private String name;
 	
 	public void setSomeInfo(T someInfo) {
 		this.someInfo = someInfo;
@@ -10,5 +11,13 @@ public class Dog<T> {
 	
 	public T getSomeInfo() {
 		return someInfo;
+	}
+	
+	public void setName(String name){
+		this.name = name;
+	}
+	
+	public String getName(){
+		return name;
 	}
 }
