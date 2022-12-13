@@ -7,16 +7,16 @@ public class CuttingBoard {
 	private ArrayList<Salmon> salmonList; 
 	
 	private String translateSalmonType(String type) {
-		switch(type){
-		case "BIG":
+		if(type == "BIG"){
 			return "큰";
-		case "MEDIUM":
+		}else if(type == "MEDIUM") {
 			return "중간";
-		case "SMALL":
+		}else if(type == "SMALL") {
 			return "작은";
-			default:
-			return "사이즈없음";	
+		}else{
+			retrurn "입력이 잘못되었습니다.";
 		}
+	}
 		
 		
 		
